@@ -7,10 +7,15 @@
 - [qb-core](https://github.com/qbcore-framework/qb-core)
 - [qb-radialmenu](https://github.com/qbcore-framework/qb-radialmenu)
 - [qb-menu](https://github.com/qbcore-framework/qb-menu)
-- [PolyZone](https://github.com/mkafrin/PolyZone)
 
 ## excample Config to add a key
+here you just add the items people should be able to add to their Keychain
 
+
+    Keys = {
+        {name = "key_crime_hacker_hideout"},
+        {name = "key_business_tuner"}
+    }
 
 ## Socials
 - [Join Discord](https://discord.gg/T2xX5WwmEX)
