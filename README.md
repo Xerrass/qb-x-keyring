@@ -1,7 +1,10 @@
 
-![Discord](https://img.shields.io/discord/220183682932146177?color=blueviolet&label=Discord)
 # qb-x-keychain
+![Discord](https://img.shields.io/discord/220183682932146177?color=blueviolet&label=Discord)
 
+## Socials
+- [Join Discord](https://discord.gg/T2xX5WwmEX)
+- [Patreon](patreon.com/user?u=50151463)
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
@@ -17,6 +20,3 @@ here you just add the items people should be able to add to their Keychain
         {name = "key_business_tuner"}
     }
 
-## Socials
-- [Join Discord](https://discord.gg/T2xX5WwmEX)
-- [Patreon](patreon.com/user?u=50151463)
