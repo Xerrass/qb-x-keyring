@@ -20,3 +20,14 @@ here you just add the items people should be able to add to their Keychain
         {name = "key_business_tuner"}
     }
 
+# setup
+add this to your qb-radialmenu config where you see fit
+
+    {
+        id = 'keychain',
+        title = 'Schlüsselbund',
+        icon = 'key',
+        type = 'client',
+        event = 'qb-x-keychain:keychain',
+        shouldClose = true
+    },
