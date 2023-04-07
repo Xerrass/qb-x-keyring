@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'Xerrass#1993'
-description 'A Heißts System for QB-Core'
+description 'A keyring System for QB-Core'
 version '0.0.1'
 
 dependencies {

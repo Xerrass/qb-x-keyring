@@ -12,11 +12,12 @@ RegisterNetEvent('qb-x-keychain:keychain', function()
     
     
     QBCore.Functions.TriggerCallback('qb-x-keychain:getkeychain', function(result)
-        local key_menu = {}
-        key_menu[#key_menu+1] = {
+        local key_menu = {
+            {
             header = "in der Tasche",
             icon = "fas fa-key",
             isMenuHeader = true,
+            }
         }
         
         for index,key in pairs(Config.Keys) do
@@ -42,6 +43,11 @@ RegisterNetEvent('qb-x-keychain:keychain', function()
         
         if result == nil then
             QBCore.Functions.Notify("Keine Schlüssel am Schlüsselbund", "error", 5000)
+            key_menu[#key_menu+1] = {
+                header = "Keine Schlüssel am Schlüsselbund",
+                icon = "fas fa-key",
+                isMenuHeader = true,
+            }
         else
             key_menu[#key_menu+1] = {
                 header = "am Schlüsselbund",

@@ -31,3 +31,9 @@ add this to your qb-radialmenu config where you see fit
         event = 'qb-x-keychain:keychain',
         shouldClose = true
     },
+
+
+add a Database Table with the Folowing Columns
+    - id (int, autoincrement)
+    - citizenid (VARCHAR(20))
+    - key_name (VARCHAR(255))
